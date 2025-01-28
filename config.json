@@ -1,23 +1,22 @@
 {
   "workflowApiVersion": "1.1",
   "metaData": {
+    "icon": "https://i0.wp.com/trailblazex.com/wp-content/uploads/2023/12/final-TBX_logo_png-01.png?fit=300%2C186&ssl=1",
     "category": "message",
-    "icon": "https://your-icon-url.png",
     "isConfigured": true,
-    "isPublic": true,
     "version": "1.0"
   },
   "type": "REST",
   "lang": {
     "en-US": {
       "name": "Send to Slack",
-      "description": "Send customer details to Slack"
+      "description": "Send customer details to a Slack channel."
     }
   },
   "arguments": {
     "execute": {
       "verb": "POST",
-      "url": "https://e4fc67dc-1773-4036-9376-213fc0de60d2-00-2aleim6lo1c9s.pike.replit.dev/",
+      "url": "https://e4fc67dc-1773-4036-9376-213fc0de60d2-00-2aleim6lo1c9s.pike.replit.dev/trigger-slack",
       "body": "{{Payload}}",
       "header": {
         "Content-Type": "application/json"
