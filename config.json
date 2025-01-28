@@ -17,7 +17,7 @@
   "arguments": {
     "execute": {
       "verb": "POST",
-      "url": "https://e4fc67dc-1773-4036-9376-213fc0de60d2-00-2aleim6lo1c9s.pike.replit.dev/trigger-slack",
+      "url": "https://e4fc67dc-1773-4036-9376-213fc0de60d2-00-2aleim6lo1c9s.pike.replit.dev/",
       "body": "{{Payload}}",
       "header": {
         "Content-Type": "application/json"
